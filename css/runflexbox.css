@@ -10,10 +10,12 @@
 }
 
 body{
-    background: #e6e6e6;
-    font-family: 'Dosis', sans-serif;
-    min-height: 100vh;
-    flex-direction: column;
+}
+
+.full-row{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .center{
@@ -61,3 +63,16 @@ body{
 .flex3{ flex:3 }
 .flex4{ flex:4 }
 .flex5{ flex:5 }
+
+.align-item-flex-start{ align-items: flex-start}
+.align-item-flex-end{ align-items: flex-end}
+.align-item-flex-stretch{ align-items: stretch}
+.align-item-flex-baseline{ align-items: baseline}
+
+.flex-direction-row { flex-direction: row }
+.flex-direction-row-reverse { flex-direction: row-reverse }
+.flex-direction-column { flex-direction: column }
+.flex-direction-column-reverse { flex-direction: column-reverse }
+
+.center-horizontal{ justify-content: center; }
+.center-vertical{ align-items: center }
