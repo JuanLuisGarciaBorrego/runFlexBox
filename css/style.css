@@ -3,4 +3,8 @@
 * @JuanluGarciaB
 */
 
-.especial{background: mediumvioletred; width: 100px; height: 100px;}
+.especial{margin-top:10%;
+    background: mediumvioletred;
+    flex-basis:400px;
+    height: 100px;}
+
