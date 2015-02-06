@@ -76,3 +76,14 @@ body{
 
 .center-horizontal{ justify-content: center; }
 .center-vertical{ align-items: center }
+
+
+::-moz-selection {
+    background: gold;
+    text-shadow: none;
+}
+
+::selection {
+    background: gold;
+    text-shadow: none;
+}
